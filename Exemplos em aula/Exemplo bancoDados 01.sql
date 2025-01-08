@@ -1,6 +1,6 @@
 CREATE DATABASE db_quitanda;
 
-\z -- Seleciona o banco de dados
+USE db_quitanda;
 
 CREATE TABLE tb_produtos(
 id BIGINT AUTO_INCREMENT, -- 1, 2...
